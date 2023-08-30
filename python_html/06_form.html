@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test06</title>
+    <link rel="stylesheet" href="text/css" href="my_css.css">
+	<style type="text/css">
+		#dl{ color:black; text-align: center;}
+		span{font-size: 66px; text-align: center;}
+		.blue{ color: blue;}
+		.juhong{ color: #cc3300;}
+		.orange{ color: orange;}
+		.green{ color: green;}
+		.hotpink{ color: hotpink;}
+		
+	</style>
+</head>
+<body>
+	<span class="blue">G</span>
+	<span class="juhong">o</span>
+	<span class="orange">o</span>
+	<span class="blue">g</span>
+	<span class="green">l</span>
+	<span class="juhong">e</span><br>
+	<span class="hotpink">Y</span>
+	<span class="hotpink">v</span>
+	<span class="hotpink">o</span>
+	<span class="hotpink">n</span>
+	<span class="hotpink">n</span>
+	<span class="hotpink">e</span><br>
+<form action="07_submit.html" method="post" id="dl">
+<!--    账户:<input type="text" name="username" value="请输入用户名">-->
+    账户:<input type="text" name="username" placeholder="请输入用户名" autofocus="autofocus">
+    <br>
+    密码:<input type="password" name="password" placeholder="请输入密码">
+    <br>
+<!--    单选按钮    -->
+    性别：
+    <input type="radio" name="one" id="1" checked="checked"/><label for="1">男</label>
+    <input type="radio" name="one" id="2"/><label for="2">女</label>
+    <input type="radio" name="one" id="3"/><label for="3">保密</label>
+    <br>
+<!--   下拉选择  -->
+    地址：
+    <select name="">
+        <option value="">重庆</option>
+        <option value="">四川</option>
+    </select>
+    <select name="">
+        <optgroup label="重庆">
+            <option selected="selected">永川</option>
+            <option value="">渝北</option>
+            <option value="">南岸</option>
+        </optgroup>
+        <optgroup label="四川">
+            <option value="">成都</option>
+            <option value="">眉山</option>
+            <option value="">青神</option>
+        </optgroup>
+    </select><br>
+<!--    多选按钮    -->
+    爱好：
+    <input type="checkbox" id="eat" checked="checked"><label for="eat">eat</label>
+    <input type="checkbox" id="shop"><label for="shop">shop</label>
+    <input type="checkbox" id="buy"><label for="buy">buy</label>
+    <input type="checkbox" id="listen"><label for="listen">listen</label>
+    <br>
+<!--  文本域  -->
+    自我介绍：
+    <textarea name="" id="" cols="30" rows="10" placeholder="请输入文字"></textarea><br>
+<!--    提交按钮   -->
+    <input type="submit" value="提交">
+    <input type="reset" value="重置">
+    <input type="button" value="你点我试试" onclick="alert('点我干啥')">
+    <button>按钮</button>
+
+</form>
+
+
+</body>
+</html>
