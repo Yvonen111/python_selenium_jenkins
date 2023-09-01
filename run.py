@@ -15,4 +15,7 @@ user = test_data.login_date["username"]
 pwd = test_data.login_date["password"]
 # 2） 传参
 result = selenium_learn.search_key(driver=driver, url=url, username=user, password=pwd, By=By)
+
 print(result)  # 打印的是一个队列
+
+time.sleep(5)
